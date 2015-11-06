@@ -35,7 +35,7 @@ footer
 {
 background-color: #F2F2F2;
 position: fixed;
-bottom: 0;
+bottom: 10;
 left: 0;
 right: 0;
 }
@@ -51,15 +51,22 @@ right: 0;
 {
     padding: 8px 8px 8px 8px;
     font-size: .8em;
+    color: #666;
 }
 
 .droite
 {
     padding: 8px 8px 8px 8px;
     font-size: .8em;
+    color: #666;
 }
 
 #droite
 {
     margin-left: 730px;
+}
+
+#gauche
+{
+    margin-left: 20px;
 }
