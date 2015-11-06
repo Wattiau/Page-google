@@ -11,6 +11,7 @@ section
     font-size: .8em;
     font-weight: bold;
     border-radius: 2px;
+    cursor: default;
 }
 
 body
@@ -23,6 +24,7 @@ input
     margin-left: 350px;
     height: 32px;
     width: 580px;
+    border: solid 1px;
 }
 
 a
@@ -96,18 +98,33 @@ border-top: solid #E4E4E4 1px;
 
 #gmail
 {
-    margin-left: 1050px
+    margin-left: 1000px
 }
 
  .gmail
  {
      font-size: .8em;
+     padding-left: 10px;
+     color: #000;
  }
+
+.gmail:hover
+{
+    text-decoration: underline;
+    border: none;
+}
 
  #connexion
  {
      background-color:#4387FD;
      color: white;
      border-radius: 2px;
-     padding: 10px 12px;
+     padding: 8px 14px;
+     font-weight: bold;
+ }
+
+ #carre
+ {
+    padding-right: 12px;
+
  }
